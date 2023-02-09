@@ -1,46 +1,137 @@
-<!--
-Tells browser the type of doc is html
--->
 <!DOCTYPE html>
-
-<!--
-Container tags
-Two tags: start/end that can encapsulate other tags
--->
-
 <html>
-    <!--
-    head is like settings for file
-    -->
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content = "This is a bad website.">
-        <!-- Title of the website (browser tab name)-->
-        <title> Alec's Bad Website</title>
-    </head>
+  <head>
+    <!-- Like settings for HTML file-->  
+    <meta charset="UTF-8">
+    <meta name="description" content = "This is a bad website.">
+    <!-- Title of the website (browser tab name)-->
+    <title>Alec Ryan Data Engineering Portfolio</title>
+  </head>
 
-    <!--
-    body is what is rendered in web browser
-    -->
-    <body style="background-color:azure">
-        <p> Paragraphs can be above header. Order matters. Whitespace does not matter.</p>
-        <h1> Alec's Bad Website </h1>
-        <!-- This craets  a horizontal roll-->
-        <hr/>
-        </body>
-        <!-- This creates a new line-->
-        <!--<br></br>-->
-        <!-- H6 is smallest header -->
-        <!-- 
-        <h6> Alec's Bad Website </h6> 
-        -->
-        <!-- For regular textual information using paragraphs-->
-        <p><big>This</big> <small>is</small> some information about my bad website. My website is bad because I am bad at HTML.</p>
-        <p>Here is another paragraph. This paragraph has a <b>bold</b> tag. It also has an <i> italic character that is <b>bold</b></i></p>
-        <p> Here is an example of a subscript: H<sub>2</sub>0</p>
-        <p> Here is an example of a superscript: 10<sup>2</sup></p>
-        <p style="color:darkslategrey; background-color: aquamarine;">Here is an example of a styled paragraph with color.</p>
-    </body>
+  <!-- body is what is rendered in web browser -->
+  <body style="background-color:azure">
+
+    <header>
+      <h1>Alec Ryan Data Engineering Portfolio</h1>
+    </header>
+
+    <main>
+
+      <div>
+        <!-- Navigation Bar -->
+        <nav>
+          <a href="about.html">About</a> |
+          <a href="https://www.linkedin.com/in/aleckryan/" target = "_blank">LinkedIn</a> |
+          <a href="https://github.com/alecryan88" target = "_blank">Github</a> |
+          <a href="contact">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <h2>Projects</h2>
+        <p>These are some of the projects that I've built recently to showcase my skills.</p>
+        <br>
+        <h3>NHL Analytics Pipeline</h3>
+        <p> This is my first project. Here is a text description and link to <a href="https://github.com/alecryan88/nhl-analytics" target = "_blank">code</a>.</p>
+        <img class="fit-picture" height = "500" width = "800" src="https://github.com/alecryan88/nhl-analytics/blob/main/pipeline.png?raw=true" alt = "NHL Analytics architecture pipeline">
+        <br>
+        <h3>One Bite Pizza Pipeline</h3>
+        <p> This is my first project. Here is a text description and link to <a href="https://github.com/alecryan88/one_bite" target = "_blank">code</a>.</p>
+        <img class="fit-picture" height = "500" width = "800" src="https://github.com/alecryan88/one_bite/blob/main/png_files/pipeline.png?raw=true" alt = "One bite architecture pipeline">
+      </div>
+     
+      
+    
+
+    </main>
+  </body>
+</html>
+
+<!-- EVERYTHING BELOW IS JUST SAVED-->
+
+            <hr>
+            <hr>
+
+            <div>
+                Here is a button <button>Hello</button>
+            </div>
+                    
+            
+                <br>
+                <section>
+                    Here is an image: <br>
+                    <img width="100" height="100" src="https://c4.wallpaperflare.com/wallpaper/528/863/760/philadelphia-eagles-nfl-american-football-logotype-wallpaper-preview.jpg" alt="eagles logo" /> 
+                    
+                </section>
+                
+                <section>
+                    Here is an video, it doesn't work because it's not an mp4 though: <br>
+                    <video width = "500" height = "300" src="https://www.youtube.com/watch?v=MyCTshT_5pY" alt="some video" controls></video> 
+                    
+                </section>
+
+                <section>
+                    Here is a youtube video that I added to my site using iframes: <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MyCTshT_5pY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                </section>
+
+                <section>
+                    Here is an unordered list: 
+                    <ul>
+                        <li>Apples</li>
+                        <li>Oranges</li>
+                        <li>Bananas</li>
+
+                    </ul>
+                    
+                </section>
+
+                <section>
+                    Here is an <b>ORDERED</b> list: 
+                    <ol type = "1">
+                        <li>Apples</li>
+                        <li>Oranges</li>
+                        <li>Bananas</li>
+
+                    </ol>
+
+                    
+                </section>
+
+                <section>
+                    Here is a table
+                    <table>
+                        <thead>
+                        <caption><h2>List of numbers</h2></caption>
+                        <tr>
+                            <th><b>name</b></th>
+                            <th><b>id</b></th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td colspan="2">Alec</td>
+                            <td>124</td>
+                        </tr>
+                        <tr>
+                            <td>Katie</td>
+                            <td>321</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                    
+                </section>
+
+            </article>
+
+
+        
+        <footer>
+
+        </footer>
+       
 
 
 </html>

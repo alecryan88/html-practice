@@ -1,3 +1,10 @@
+/* Hierarchy
+4.Element selector - h2
+3. Class selector - class="" . -- Used multiple times
+2. ID id ="" # -- Used once
+1. Inline
+*/
+
 h1 {
     background: #000000;
     color: #FFFFFF;
@@ -5,10 +12,40 @@ h1 {
 
 h2 {
     background: #000000;
-    color: #FFFFFF;
+    color: red;
 }
 
 HTML {
     background: #121212;
     color: #FFFFFF;
+}
+
+.title {
+    color: #61DC93;
+
+}
+
+#home_nav {
+    color: #61DC93;
+    text-decoration: none;
+
+}
+
+.nav_link:hover {
+    color: #61DC93;
+    text-decoration: none;
+
+}
+
+.nav_link:nth-child(2){
+    color: red
+}
+
+a:link {
+    color: red
+
+}
+
+a:link-visited {
+    color:green
 }

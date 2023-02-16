@@ -1,51 +1,43 @@
-/* Hierarchy
-4.Element selector - h2
-3. Class selector - class="" . -- Used multiple times
-2. ID id ="" # -- Used once
-1. Inline
-*/
-
-h1 {
-    background: #000000;
-    color: #FFFFFF;
+body{
+    background: #393934;
+    color:#FFFFFF
 }
 
-h2 {
-    background: #000000;
-    color: red;
+/* NAVIGATIION */ 
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #181818;
 }
 
-HTML {
-    background: #121212;
-    color: #FFFFFF;
+.nav li {
+    float: left;
 }
 
-.title {
-    color: #61DC93;
-
-}
-
-#home_nav {
-    color: #61DC93;
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
 
+/* Add a gray right border to all list items, except the last item (last-child) */
+.nav li {
+    border-right: 1px solid #FFFFFF;
+  }
+  
+.nav li:last-child {
+border-right: none;
 }
 
-.nav_link:hover {
-    color: #61DC93;
-    text-decoration: none;
-
-}
-
-.nav_link:nth-child(2){
-    color: red
-}
-
-a:link {
-    color: red
-
-}
-
-a:link-visited {
-    color:green
+.nav_active {
+    background-color: #19D860;
 }
